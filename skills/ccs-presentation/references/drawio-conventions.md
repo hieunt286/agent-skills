@@ -2,6 +2,24 @@
 
 How CCS draws architecture / flow / journey diagrams in draw.io (.drawio) so they drop cleanly into branded decks. Diagrams are **generated or restyled by script** (every cell goes through one shared style function — no hand-tuned one-off styling), which is what keeps a 7-page file visually uniform.
 
+## Start from a template — never from a blank page
+
+`../assets/drawio-templates/` holds anonymized production diagrams (labels replaced with `[placeholder]`s; structure, styles, zoning, icons intact). Pick the template matching the diagram type, clone it, and replace placeholder/content labels — the style recipes below are then inherited instead of rebuilt:
+
+| Template | Diagram type | Use when the slide must show |
+|---|---|---|
+| `application-landscape.drawio` | Application landscape / business framework | The map of actors, channels, application services, shared services, integration points — including an isolated-system frame |
+| `logic-architecture.drawio` | Layered logical architecture | The full system in numbered tầng/layers (users → gateway → services → messaging → storage) + external systems + isolated system |
+| `tech-stack.drawio` | Tech stack table | Layer · product · why-chosen rows, grouped by section bars |
+| `flow-content-release.drawio` | Approval workflow + distribution flow | A state-machine approval pipeline and how the released output fans out to consumers |
+| `flow-user-experience.drawio` | End-user experience flow | Phased user flow (session init → content trigger) across client, services, CDN |
+| `flow-device-sync.drawio` | Device/system sync & monitoring flow | Bidirectional command/status channels, offline behavior, buffered events |
+| `flow-ai-guardrail.drawio` | Guarded AI flow | A decision flow where refusal is the default path: deterministic match → threshold gate → answer-with-citation / polite-refusal + feedback loop |
+| `flow-ar-interaction.drawio` | Client-side interactive feature flow | Trigger → permission branch → happy path + fallback path → asset source & analytics |
+| `journey-strip.drawio` | Customer journey strip (very wide) | Multi-stage journey: stages × (touchpoints, devices/emotions, system functions, data captured) + shared platform band, legend, layers |
+
+`journey-strip.drawio` also demonstrates **layer organization** (Nền và lưới / Luồng và liên kết / Tiêu đề / Hành trình / Dữ liệu / Nền tảng) — keep that layer discipline when editing large diagrams.
+
 ## Page setup
 
 - Model background **`#FAFBFD`**; model-level `shadow=0` (shadows are opt-in per card).

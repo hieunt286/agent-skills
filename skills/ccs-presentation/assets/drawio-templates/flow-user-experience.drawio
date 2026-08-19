@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" type="device" agent="ccs-presentation-skill"><diagram id="pg4" name="Flow · User Experience">
+    <mxGraphModel arrows="1" background="#FAFBFD" connect="1" dx="1778" dy="1008" fold="1" grid="0" gridSize="10" guides="1" math="0" page="0" pageHeight="720" pageScale="1" pageWidth="1720" shadow="0" tooltips="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" parent="1" style="text;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=28;fontColor=#1F438A;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" value="LUỒNG TRẢI NGHIỆM KHÁCH TẠI HIỆN TRƯỜNG" vertex="1">
+          <mxGeometry as="geometry" height="40" width="1500" x="104" y="24" />
+        </mxCell>
+        <mxCell id="t2" parent="1" style="text;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=13;fontColor=#545B68;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=0;" value="Từ lúc quét QR ở cổng tới lúc nghe thuyết minh tại một điểm dừng" vertex="1">
+          <mxGeometry as="geometry" height="24" width="1600" x="60" y="64" />
+        </mxCell>
+        <mxCell id="t3" parent="1" style="text;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=12;fontColor=#1F438A;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" value="GIAI ĐOẠN 1 · KHỞI TẠO PHIÊN" vertex="1">
+          <mxGeometry as="geometry" height="20" width="900" x="60" y="108" />
+        </mxCell>
+        <mxCell id="b4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Kiosk cổng&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;QR tĩnh/động · e-ticket + in nhiệt&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="340" x="60" y="134" />
+        </mxCell>
+        <mxCell id="b5" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;experience-service&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;tạo phiên ẩn danh · ngôn ngữ · loại khách&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="400" x="470" y="134" />
+        </mxCell>
+        <mxCell id="b6" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFF4EE;strokeColor=#EB6834;strokeWidth=2;fontColor=#11161F;" value="&lt;b&gt;Smart Guide PWA&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;không cài đặt · mở trong trình duyệt&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="340" x="940" y="134" />
+        </mxCell>
+        <mxCell id="b7" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;delivery + CDN&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;precache audio · ảnh · 3D theo tuyến&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="310" x="1350" y="134" />
+        </mxCell>
+        <mxCell edge="1" id="a8" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="quét">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="400" y="184" />
+            <mxPoint as="targetPoint" x="470" y="184" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="a9" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="session token">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="870" y="184" />
+            <mxPoint as="targetPoint" x="940" y="184" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="a10" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="precache">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1280" y="184" />
+            <mxPoint as="targetPoint" x="1350" y="184" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="divx" parent="1" style="line;strokeColor=#4F7AC1;strokeWidth=1.2;dashed=1;dashPattern=6 4;html=1;" value="" vertex="1">
+          <mxGeometry as="geometry" height="10" width="1600" x="60" y="276" />
+        </mxCell>
+        <mxCell id="t11" parent="1" style="text;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=12;fontColor=#1F438A;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" value="GIAI ĐOẠN 2 · KÍCH HOẠT NỘI DUNG TẠI ĐIỂM DỪNG" vertex="1">
+          <mxGeometry as="geometry" height="20" width="900" x="60" y="312" />
+        </mxCell>
+        <mxCell id="b12" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;GPS Geofence&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;vào 15m · ra 25m · dwell ≥ 6s&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="92" width="340" x="60" y="338" />
+        </mxCell>
+        <mxCell id="b13" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Quét QR thủ công&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;luôn khả dụng ở mọi điểm dừng&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="92" width="340" x="60" y="446" />
+        </mxCell>
+        <mxCell id="b14" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFF4EE;strokeColor=#EB6834;strokeWidth=2;fontColor=#11161F;" value="&lt;b&gt;Phát nội dung điểm dừng&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;thuyết minh · video · hiện vật 3D&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="112" width="420" x="560" y="382" />
+        </mxCell>
+        <mxCell id="b15" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;analytics-service&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;chuỗi điểm chạm · dwell time&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="112" width="400" x="1120" y="382" />
+        </mxCell>
+        <mxCell edge="1" id="a16" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="480" y="384" />
+              <mxPoint x="480" y="420" />
+            </Array>
+            <mxPoint as="sourcePoint" x="400" y="384" />
+            <mxPoint as="targetPoint" x="560" y="420" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="a17" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="480" y="492" />
+              <mxPoint x="480" y="456" />
+            </Array>
+            <mxPoint as="sourcePoint" x="400" y="492" />
+            <mxPoint as="targetPoint" x="560" y="456" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="a18" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="journey.event">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="980" y="438" />
+            <mxPoint as="targetPoint" x="1120" y="438" />
+          </mxGeometry>
+        </mxCell>
+      <mxCell id="ui_logic_header_icon_4" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" value="&lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAQAElEQVR4nOydD3xcVZXHz7lvWtoJbP9QKGKbmbR8ln+KKGVdLZU0k6RW/liLZcVFBXUXXRQFkkxB/TDA0jZJARVRYf23CruUIsryp9Bk0tA/VpctUMDuqjSdSWmlUGqjJA3NvHf23KR8BAVy32T+3DfvfPkM89qem5nJ3N+795577jkKBCHEKBCEECMCEEKNCEAINSIAIdSIAIRQIwIQQo0IQAg1IgAh1IgAhFAjAhBCjQhACDUiACHUiACEUCMCEEKNCEAINSIAIdSIAIRQIwIQQo0IQAg1IgAh1IgAhFAjAhBCjQhACDUiACHUiACEUCMCEEKNCEAINSIAIdSIAIRQIwIQQo0IQAg1IgAh1IgAhFATASF0HLdw2VEHhyIL0YM5qOAYj2g6Ak7nfzqGH4fxYw/xQ+lnouf5Nvk7T6k1O9c2PwMVBoIQCuINbaeSh+cA0llAcDrkN/r3ctsHCeGhw6cOrN22OnUQAo4IoMKpnr/yNFB0AwItgMKSYSFc03vGwB2QSnkQUEQAFUq8ceUJ5NL1AHQeFPd73sajyteyncl7IYCIACqNVErFNkS540OSHw6UCAJar1z8h0x3y/MQIEQAFUT1Gcun4GHOf/DlB6E87OYu9dFsunkzBISS3SGE4lKTaD8FItjFl6dD+TiCH5+YNKvhhb4dHVsgAIgAKoB4ou2D7LZcy5dHQ/lxeFpxzuSahiNZBGvAckQAAWfYy4OkO1oV2ATCeyfPbnD7ejrWg8WIAAJMvHZ5nO+3etozFeykblJNfU/fjs6nwFJkERxUltztxPdlNtMY5/zcAZ5mJ/4vFPKOLyDv/OJBRDrKA+KdYTwJCc6Ekd3hfHmFQL2nN920DSxEQiECSvW+zJVj6PzbEeFGRzkPbF975c63Mpze2F41fshLKAcvYV/nh8A/hyF6P2DBzoXV57tgGTICBJBZiRv/1gV3K19OAH+8wI/rpu2fdPuWLZcMgU9mJtrmKYBWvnwf+IaasunkjWAZIoAAEq9rXUWI5/tqhPArzMGiMW9U8UZbfEN0OY8+LeCPvnHjJ1Q/u+ayP4JFyCI4YMyoXX4cKvUd8HfzuhPdgcWZ7q/sh7HS3U37d3R0TprdsIPfwFlg3ocmuLmhPl4QbwKLkPMAAcNRSt95jb83vlPfl5038MlMd2oQCkhvZ8uPieizftog4pfjtSm/07aiIgIIEMOdB/HjPpo8dcAduLBY0Zq9XcmfIGCrjybHkKpaCBYhAggQnhOtB/MNr4MeweIXu1MvQxHJzOu/mocZ82mNgo+ARYgAAgTPuc07D8GtO7tatkOx0aMLYrN5AzobalPWuN9FAMGi0dCuL4e5G6BEHIr+/LmRMcGUeGTiHLAEEUBAeHti2ZH8NMPElhe+P9uVvvolKCWkbje29eBUsAQRQECIgHOKqS0i3Q8lBr2X1/HTgIktARp/lmIjAggIvPH1DkPToQkHoANKjHaz8holbWSM+E6wBBFAQEDPONb/97/ZlPwTlAGeev3W0PIosAQRQFBQONnEjO/Ce6BcEJiGWRh9llIgAggOk0yMqIwCICDT1xYBCMUBxxa7PzaUMg1zILAEEUBQ8MgokI171nQoEzh8iMaIPrAEORATHEw7zTFQLsj4tccelVogZAQIDMbz66OHzwqXAZ5+/Z2JnY+1QtERAQQEBY7xwXJS6mwoMfHatmN4+mUU4oCorDkkLwIICKhyW41tEc+FEkMKtOjMDukQPAmWIAIICD2dS/UawCi6k+/E9cP5gkqFju5EaDK2R/U4WIIIIECQeYwPDwKen4MqYyLuVH2Gn443NN+V7bxCRgDBP+jRanNjSFTXtS2BIlOTuGE6L2qvNW6A+DP+n+wDCP7JdiV13P0uU3tE+KGuDANF4riF3zzMg3H6HIDx3gMvEn4KFiECCBR85yT4uo8GVeTBfdpDAwWHcOjg4Pf54u9NW+gsdJnOpkfBIkQAAWOoauDb/OQnt081RXBDrLG9BgqFLsKRaP8eX/2jr3aAy2ya/mhEAAFj9/2pAe5BK3w1IjoOXG/TjPoVY4/DZ49PbGP0Dr76tK92QL/NzOu/GyxDBBBAet2BW/npl74aAb7NAfVorG7F+yFPTlqSGh9zoqt5GnYB+IRAXWpjMT0RQBDpTuUIXD398HfwhWAK++A7YvPbfCe5nfG+myb274vex5eLwCc8Yt3Wm27uBAsRAQSU3vRVPdy1Pg/+ifK3/vNYotV4/n5UbepwJ5p7CPKrPdYzcZB8pE0pLZIbNMD07eh8enJNQz+7V0zTpbwKf+/4kUmzGv/Qt6PjV29lGK+9efI4x3mEL88A/+xTHtU9uz65GyxFBBBwuAP/YsrsevYwYi34g7cJYOHkWfUOC2ndGxkcW7tymnJyPHXBfOoQDJKChdl08gmwGBFABbC/p7ObRwIdj/MB8A2eyW2n931q7hqd+fnVv9V7B8qhLsgvhckBlteS3s4WsywRZUQEUCHwSLBu0qyG/XxXXwB+6z4gnD4lGznx2Dln/NeL27rd2Y03zuQdt27+lxPAP32E3sLezqT1nV8jBTIqjOpE+4UI9EPI57QfwSaetqzi52buGDPBP88rz/vgjnVLjUO3y40IoAKJ1befxZtfOnBuIpSOHo+gsSQJeQuICKBCqW5om4sePAClSUHyFLqwYMzll8qACKCCqUm0n+KB97DeBYaigRvRjZyT6b7cmoPufhABVDjVieWzEJy1fDkbCg496A6MW/Lc5isOQECRneAKR+8YKxiay/e6wi5MEX+SdQ8sCnLn18gIYDk6DGGCE303Ip6gXHgqc2b/Y/kElc2qXzHJI3U/O/rnwRghpK+zj/8K20Kb80EEYCl6/s6++EtpJOb+tXXBMoh0QaYz6TMadCSgLVKVu4sIxpI14ivZdMsyqBBEAJYxPGdH5xb2xb9VxOZBILUo29W0BvyiD7NsmNjOX/0V/hrCIAJenEk33wUVhAjAFpbc7cT2ZZJ89VUw89/vRnfcyfl6X2bObz1XKWwDg2wOhLCWvUlNz3UufRoqDBGABeh5ftSZeDd/HT5r6OJns+nm70O+6NNdkYnnEqlzefdYR3tqd2mUHzqkYidPv9YCefdmu5b+AioUEUCZmdnQeqzy8EG+9J+9AfFb2c7mL0Ih0UmuulM5CAniBi0jx89tPUK5qGPt80tdQvACFJoQdX6NCKBc8Jx/cAKs4jHYtPjdX+EBPgzCmBABlInqlzL/6n/O/zru3JluegyEMSEFMsrASIwOmSeT/SvowaHogX8GYcyIAEoOoQftt0Fev3t6UIG6eke6xZr8+kFHBFBiYvXti3nxapxO8BA97JL8Um86+QAIBUUEUGoIvgD+2DxhkBaUq/h1pSP7ACWkev6Kk1GpZ0zt+ct5LDJ+Qv2zay77IwhFQbxAJUQpdb4P893gjmuUzl9cKnYKpAs3uGrccUg0HQGn6xKeHsLRiuAVXXGREPeAC88TqD2KXv51pjs1CEXGVygywTVBPWUVJCpnCpRKqfijVaeT8s7ij6UjKd8D5p/vAPe4LkRkL4v3YE/n0l4oMKeddtu4vZP7dJ0vk0C3bdmp8VNg9fkuCEUl8ALQqfvIGWrmO+Y/8ac5CgoCbuVfzIpMumlVoQ59xBtXnkCu978mtgTIHp/mb4JQdAK7Bjj2nFQ0nmi9iiJDPfzHqwvX+TX0LgL6z1hi5RPVibaC1Nz1yDvS1JYlZ7xQFsZGIAUQq2/79LiB6HbSFUd0yu+iQe/ikeD+WKJ9U838Fe+CMaAIp5naokfbQCgJgRKALsrGG0k/4E6vY+CLUPfqzaD3e0pt9pNS/K/wKGpqeeSfJr0EQkkIjAB0vsqhg4MbgehiKA+8eMU7qutbbx6OmfeJ55Bp6LLaO+XlvCNEBX8EQgA1dSs/kMu5W/hyDpQZJPxyzIl2vD2xzHhOryFUe4yNPbd0Vd5DjvUCmJlYebqH3prCLnLHTG2EIvfpmlmmDdyDaJw2kBSIAEqE1QLQGRLYL68DwEznz6UDYe7L+6K3mZrv7r5Sz+v7TWzZC3Q2r3f+BoSiY60AtJsTwdF1qY6GvMGX+X+6kvky7VvnjvVxBLqIe1gL32dvgpFKi3lXLmQP0UWxujbDuP7h/YQOM1uYkTs4eAsIRcfajTD28X+DO+1l4B9ChHs8wtsPn9q/ftvq1MG3MtZlgMY77ln8WiwKOAn84/Ev8axMumXU44nxutaL+c39AExBOi/bmbwXhKJhpQD0opfn/d3g//11eYqSOzuS/wN+0aEU66OfJITr+U8zwB890/ZPOmHLlkuG3spodmP70TmXfg/mI+9e8rza3nVLfw1CUbBQAIS88aR3Qv3cjYkIr+3tarpurKELekQYp7x7+Ddzpq+GRF/MdiW/NZpZdaL9YZ6GLQBzXuEPd03vkTUrJTao8Fi3Bhg+MeWv8x8goPN7u5qvLUTczu7upr3T+iY18OX3fDVE/JpOcDWamVK0FPytOw5DxBWxP2Q2zahf8U4QCop1IwDvtj7Ob+vdhuZ848eP9XY23w0FhzBe13YX/3zjGH5W3zW96ZbrRrPjUeBHPAp8CvJjHz+28os9yT/jaW9koV9UFNIQj0IveKD2DHoDe17sThX9NUuFVQKYmWibx0PSelN7fvPX8eLzGigSOpuyE81t4EtTv/ze7LyB6aOlL397beuMiIO/ARvdu2bsZ0dDB49jDzkRfGj72ubCJ+gqEVZNgRyA80xtedqzPpNuTkER0cUf0HU/ypevGDaZFttQ9d7RjHZ1J5+jkREgqPn1JxPBEnYY/JAX9c+zK7gzPr991M9tI1YJgG+bi01tFUKyFAUaMt1XZbif3mrcAPWBnNHpTSfv4WnFVRB8kP9LkKJfxhJt9+pzDxAgrBGADjf2UZv25/kUiMiXHLi6IITZ2VxCIwFoeruSreB3sW03HyHXe5rXcf8CAcEaAfBi8z3Gxogl7TS70le/hCM7yiacqjM+G9pCdmr8c/x0I1QOEf6CbuVp0bfziZotNfZMgdA4Q/Kg2+90QYnxcDiFuREslhNNbbVvP5tuaeJbwIUwfDa5QkD4fMyJPmLiGi4n9owAhIYnrmhdOSoTqlxElxo12ohCUtPBJ9l08k5eEusiFZV0GqyuKhK9U++yg6XYNAKYnfAi/D8oA4dSlPzexJb9874FoMl2tTyus0EMB+zxS0IFoAvyVa+P3gCWYpMyJ5sYsfvQ/GBJ4THzdxPmJYBheEqUSSf/vWrqwPHsa9eLyW7Q6/AAw59j6ZiOkxaRwAlAAZZRAGbi8/IcAV6LjmLNdLZ8h9cH8x30prHwl7DP9zZ+D7oyJO+Wwy5+DEFgwG/qWsVgGZIcNwD0dC7VCbXuOfQoOdMb26sOIzqVlT0HEU/jeY0O5vN7TmNqjhxdBfNqsAibBKDn2KPeOQtxd80fs6lNeUepwrNnbbM+ybbp0AP0eegIjPsuj0Yf9fNzZ8XLFAAABmxJREFUeG3zpdiCm2/JPnK50VqqFNg0BTLKg4mAZRQAmL02UkUJ4C/R+yLZdDNPyfAT/Mc+H02jkMtdDhZhjwAIzA6NI5Vlq33GgpumgmEuIqqwEeDN6E0336E8T5+bOGjeis4Fi7BGAIi01dByvo7ShBLj5IZ0QTvHxJbQC4UANDvWLd3Ki/Ov+Why/My6ttlgCTaNAE8aWk5wqtw6KD3GOUK5Qxglwa0UeucNrOQb00ZTe15IG8dLFRt7RgCix42NiT4LJYTdd9X8DhcZmj+5syO5G8JEKuU5oD5jao7gvQ8swRoB6KGUn0zz8i+K17f6LTSXNy6oFfw0wcgYyThmqJLoSV/5W74zGXp3yurIeB12xWgQ/NTU1CNo1bNtKDLx+vZafl8fM25AKpQCGAG3GBqKAN4QxNXGpoAfiCfaU1BEqhMrT+Id2HvB/Ojo3uy8/l9BSGFHhghgLLBveTMvIP/b1F57H6rr2/0UnjNGn9vlceZhP/UH+P3cMtp54EqGSO00ND0CLMG6MFX04Fo/5rx4/tHM+a0F9S3HGttrIg6u93FCTfPCAXfgJggxvLg9xdB0L1iCdQLIrmvR+UD9ZHabqBTeW6hjeDXzW48Hl3RmihpfDYmur6R0IflAhIbZM+zZKbfyoIIHSndmPyHAjj6Gx2uCFWNZGOvEU57CRyGf1Ih9k40zRVck+tCL8ak+e3bKrRTAznTTY9yRl4NPeMGajNW33+knb/+rzGxoneOQ6gb/CzSdHPfS0fKCVjqxjRP1PkmViS2au7uLjrVH1abtn3w9d+knwC8EF/Tviz6iy6eaNqluaJurPEzz5VTwC0HSJDN0JaOT/vJt4Lum9uzC7gRLsFYA+o4acSIf5st8dlVryRnaOLKD+9bE6trreOH9CF/6LkjBXp8fZbtaVkLIcT36Nx8VfHIR5a0FS7C6Qsz2tVfu5ImlDkIzy8nzek52SW2ON7S96bw0Nr/tQ4d2bo2G7tdBsOnwqQOXQMjRBUL0uV8fTTYeOuBjBdbXCNuRbn6Ke5ueX+aTCeJY8mB9TV1b41/+Q6y+7Tz+9DrXj1mIw+vArUOeWjRa8Y1KRk974vVt9/Gdv91PO97AvAssIhBVIrPp5DpSoFOWGx2a+QuO4FXqA/G6tote/YvqRPuFfAdfxZfjwCd6o45eyc3XadQhjLC3J1bfujiXo2d83vk124/c/zfmFXJKgLUlkt6ImkT7KZ7enQV8G+QFfZ8/cD8BfgHyED+33RAZP+HsZ9dc5mtKdtzCZUe5r4w/0QXPmhAAPyg9RUR697Cff8TV6X/KCMN3/wsy6WarRoBACUCjK0ciOHoRVepDFZ1D0YEP774/NWDaYDhRrOvdzqPGPBAez6ab55QiobEfAlMp/lV601f1KBiaq+fhUDoeQHfgHD+dfziQzvWekM4/zH4HnAts6/yawAlAsyP9lT0OumfqKQkUHbxn2v5JizPdqUFfrdDTc908FtgVh6tLWI2cF7CPwE2BXos+GxyJ5lbxbeUcKAaIP8lOiV3stzhdbMHNb4PcULhOhb0JhHBZb2eLtTWPAzkCvIpOkptxBxazin8MBYZ/5u3ZM/ovyqcyI+UOvgME1/bOrwl+ZrjuVC4DdBHv6L7EvbYgOWe483+DvRWXQzq/Oavy1B9JBbX6UUHYP1y5szPZAZYT6BHgzyBlu1quQKAxp91jF+nyTLrly2NZsPVTvy5sHdaDMY/zgve9vWn7O78m0GuAN2I4vEGBHnZngT928S/jSu78q6AAxBJtumj2pRAetrOf/6uZdNMqG709b0aFjAB/Rh+oYZflybpmL5iFTwzxF9Y+4A6cUKjOr+Gft5QF9RhUNvrMRjd3/M+xp+zEkU2u4HR+TcWNAK+lpm5lzFXUqIhO5m37d/Cn1YtTh+c5v+brZ5DomZyD6ec6Wn4HxaA2FYk7E5s9wEX8i9ZV3kue0a5A6LMOL46c5MI9QLSTp4odOqrTpsC2fKhoAQjCaFTcFEgQ/CACEEKNCEAINSIAIdSIAIRQIwIQQo0IQAg1IgAh1IgAhFAjAhBCjQhACDUiACHUiACEUCMCEEKNCEAINSIAIdSIAIRQIwIQQo0IQAg1IgAh1IgAhFAjAhBCjQhACDUiACHUiACEUCMCEEKNCEAINSIAIdSIAIRQIwIQQo0IQAg1IgAh1IgAhFDz/wAAAP//Jo93wwAAAAZJREFUAwAyXBotfBQqPgAAAABJRU5ErkJggg==&quot; width=&quot;34&quot; height=&quot;34&quot; style=&quot;display:block;margin:auto;object-fit:contain&quot;/&gt;" vertex="1"><mxGeometry as="geometry" height="34" width="34" x="60" y="28" /></mxCell><mxCell id="ui_logic_footer_4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=10;fontColor=#545B68;align=center;verticalAlign=middle;" value="Style: globals.css · Plus Jakarta Sans / Be Vietnam Pro · Flaticon UIcons — UIcons by Flaticon" vertex="1"><mxGeometry as="geometry" height="20" width="1600" x="60" y="686" /></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>

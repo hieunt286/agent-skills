@@ -16,7 +16,7 @@ Everything here was extracted from CCS's real production pipeline (the DI_TICH /
 | [references/storyline.md](references/storyline.md) | Presentation outline: the canonical slide order and narrative principles |
 | [references/proposal-method.md](references/proposal-method.md) | Persuasion proposals (đề xuất kỹ thuật): the HIỂU → TIN TƯỞNG → KHẢ THI method, slide spec format, quality rules |
 | [references/proposal-structure.md](references/proposal-structure.md) | The canonical ~15-slide proposal outline with per-slide goals and content checklists |
-| [assets/](assets/) | `logo/` — the three official CCS logo SVGs; `favicon.svg`; `globals.css` — the design-token source of truth (oklch, with design rationale in comments) |
+| [assets/](assets/) | `logo/` — the three official CCS logo SVGs; `favicon.svg`; `globals.css` — the design-token source of truth (oklch, with design rationale in comments); `drawio-templates/` — anonymized production diagram templates, one per diagram type (index in drawio-conventions.md) |
 
 ## Workflow
 
@@ -33,7 +33,7 @@ Whatever kind of presentation is requested, do **not** start producing anything 
 
 ### Phase 2 — Build
 
-1. **Draw diagrams first.** Every diagram confirmed in Phase 1 is a `.drawio` file that **must comply with the design system**: brand tokens and rules from `references/design-system.md` applied through the concrete style recipes in `references/drawio-conventions.md` (palette, zoning, block taxonomy, connector rules, Flaticon UIcons). Export to high-res PNG; the deck embeds the PNG in an image card and credits the source file in the caption ("Bản vẽ: <file>.drawio").
+1. **Draw diagrams first.** Every diagram confirmed in Phase 1 is a `.drawio` file that **must comply with the design system**: brand tokens and rules from `references/design-system.md` applied through the concrete style recipes in `references/drawio-conventions.md` (palette, zoning, block taxonomy, connector rules, Flaticon UIcons). Start from the matching template in `assets/drawio-templates/` (index in drawio-conventions.md) — clone it and replace the placeholder labels; never draw from a blank page. Export to high-res PNG; the deck embeds the PNG in an image card and credits the source file in the caption ("Bản vẽ: <file>.drawio").
 2. **Build the deck** per `references/design-system.md`. Generate programmatically (python-pptx is the proven path; the design-system file lists its known traps). Render the logo SVGs from `assets/logo/` to transparent PNG before embedding (PPTX cannot embed SVG).
 3. **Track sources.** Every number must be traceable to a file inside the reference scope agreed in Phase 1 (estimate xlsx, WBS docx, drawio page). Keep a per-slide source list — in speaker notes as a `[Sources]` block, or a `source-notes.txt` beside the deck. Never invent figures.
 4. **Render-based self-review — MANDATORY, never optional.** Export the deck to PDF (`soffice --headless --convert-to pdf`), rasterize pages (`pdftoppm -png`), then actually look at every page and fix what's wrong — text overflowing boxes, empty cards, misaligned chrome. Layout defects of this kind are invisible in the build code and only surface in the rendered output; a deck that has not been reviewed page-by-page from renders is not done. Repeat build → render → review until a pass finds nothing.

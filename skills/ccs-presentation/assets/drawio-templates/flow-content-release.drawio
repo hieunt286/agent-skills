@@ -1,0 +1,161 @@
+<mxfile host="app.diagrams.net" type="device" agent="ccs-presentation-skill"><diagram id="pg3" name="Flow · Release &amp; Approval">
+    <mxGraphModel arrows="1" background="#FAFBFD" connect="1" dx="1778" dy="1008" fold="1" grid="0" gridSize="10" guides="1" math="0" page="0" pageHeight="780" pageScale="1" pageWidth="1720" shadow="0" tooltips="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" parent="1" style="text;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=28;fontColor=#1F438A;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" value="LUỒNG PHÁT HÀNH &amp;amp; PHÂN PHỐI NỘI DUNG" vertex="1">
+          <mxGeometry as="geometry" height="40" width="1500" x="104" y="24" />
+        </mxCell>
+        <mxCell id="t2" parent="1" style="text;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=13;fontColor=#545B68;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=0;" value="Hiện thực nguyên tắc “một lần soạn · hiển thị nhiều nơi” · mọi nội dung ra khỏi CMS đều đi đúng con đường này" vertex="1">
+          <mxGeometry as="geometry" height="24" width="1600" x="60" y="64" />
+        </mxCell>
+        <mxCell id="t3" parent="1" style="text;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=12;fontColor=#1F438A;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" value="QUY TRÌNH PHÊ DUYỆT · SPRING STATEMACHINE · 7 BƯỚC" vertex="1">
+          <mxGeometry as="geometry" height="20" width="900" x="60" y="108" />
+        </mxCell>
+        <mxCell id="b4" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Nháp&lt;/b&gt;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="200" x="60" y="134" />
+        </mxCell>
+        <mxCell edge="1" id="a5" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="260" y="164" />
+            <mxPoint as="targetPoint" x="293" y="164" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b6" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Tự kiểm tra&lt;/b&gt;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="200" x="293" y="134" />
+        </mxCell>
+        <mxCell edge="1" id="a7" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="493" y="164" />
+            <mxPoint as="targetPoint" x="526" y="164" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b8" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Thẩm định chuyên môn A&lt;/b&gt;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="200" x="526" y="134" />
+        </mxCell>
+        <mxCell edge="1" id="a9" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="726" y="164" />
+            <mxPoint as="targetPoint" x="759" y="164" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b10" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Thẩm định chuyên môn B&lt;/b&gt;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="200" x="759" y="134" />
+        </mxCell>
+        <mxCell edge="1" id="a11" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="959" y="164" />
+            <mxPoint as="targetPoint" x="992" y="164" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b12" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Phê duyệt phát hành&lt;/b&gt;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="200" x="992" y="134" />
+        </mxCell>
+        <mxCell edge="1" id="a13" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1192" y="164" />
+            <mxPoint as="targetPoint" x="1225" y="164" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b14" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFF4EE;strokeColor=#EB6834;strokeWidth=2;fontColor=#11161F;" value="&lt;b&gt;Đã phát hành&lt;/b&gt;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="200" x="1225" y="134" />
+        </mxCell>
+        <mxCell edge="1" id="a15" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1425" y="164" />
+            <mxPoint as="targetPoint" x="1458" y="164" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b16" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#4F7AC1;strokeWidth=1.5;dashed=1;dashPattern=6 4;fontColor=#11161F;shadow=0;" value="&lt;b&gt;Lưu trữ&lt;/b&gt;" vertex="1">
+          <mxGeometry as="geometry" height="60" width="200" x="1458" y="134" />
+        </mxCell>
+        <mxCell edge="1" id="a17" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;dashed=1;dashPattern=6 4;" value="trả về → quay lại Tự kiểm tra · không có đường tắt">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1092" y="232" />
+              <mxPoint x="626" y="232" />
+            </Array>
+            <mxPoint as="sourcePoint" x="1092" y="194" />
+            <mxPoint as="targetPoint" x="626" y="194" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t18" parent="1" style="text;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=12;fontColor=#1F438A;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" value="PHÁT HÀNH · SINH SNAPSHOT BẤT BIẾN" vertex="1">
+          <mxGeometry as="geometry" height="20" width="900" x="60" y="288" />
+        </mxCell>
+        <mxCell id="b19" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;content-service&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;bản nháp · phiên bản · quyền duyệt&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="96" width="340" x="60" y="314" />
+        </mxCell>
+        <mxCell id="b20" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFF4EE;strokeColor=#EB6834;strokeWidth=2;fontColor=#11161F;" value="&lt;b&gt;delivery-service&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;snapshot bất biến: version + checksum&lt;br&gt;phục vụ đọc qua CDN · manifest cho thiết bị&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="112" width="460" x="580" y="306" />
+        </mxCell>
+        <mxCell id="b21" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;media-service&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;tệp đã chuyển mã + checksum&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="96" width="340" x="1180" y="314" />
+        </mxCell>
+        <mxCell edge="1" id="a22" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#EB6834;strokeWidth=2;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#EB6834;" value="content.published">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="400" y="362" />
+            <mxPoint as="targetPoint" x="580" y="362" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell edge="1" id="a23" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="tệp media">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1180" y="362" />
+            <mxPoint as="targetPoint" x="1040" y="362" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b24" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Smart Guide PWA&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;GET /v1/pois?lang= · CDN cache&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="380" x="60" y="508" />
+        </mxCell>
+        <mxCell edge="1" id="a25" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="810" y="470" />
+              <mxPoint x="250" y="470" />
+            </Array>
+            <mxPoint as="sourcePoint" x="810" y="418" />
+            <mxPoint as="targetPoint" x="250" y="508" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b26" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Website Cổng thông tin&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;webhook → dựng lại trang&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="380" x="467" y="508" />
+        </mxCell>
+        <mxCell edge="1" id="a27" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="810" y="470" />
+              <mxPoint x="657" y="470" />
+            </Array>
+            <mxPoint as="sourcePoint" x="810" y="418" />
+            <mxPoint as="targetPoint" x="657" y="508" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b28" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;Player Runtime&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;kéo delta ở cửa sổ sync kế tiếp&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="380" x="874" y="508" />
+        </mxCell>
+        <mxCell edge="1" id="a29" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="810" y="470" />
+              <mxPoint x="1064" y="470" />
+            </Array>
+            <mxPoint as="sourcePoint" x="810" y="418" />
+            <mxPoint as="targetPoint" x="1064" y="508" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b30" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=15;align=center;verticalAlign=middle;spacing=8;shadow=1;fillColor=#FFFFFF;strokeColor=#D6D9DE;strokeWidth=1.2;fontColor=#11161F;" value="&lt;b&gt;ai-assistant&lt;/b&gt;&lt;br&gt;&lt;font style='font-size:11px;color:#545B68'&gt;đánh chỉ mục lại Knowledge Base&lt;/font&gt;" vertex="1">
+          <mxGeometry as="geometry" height="100" width="380" x="1281" y="508" />
+        </mxCell>
+        <mxCell edge="1" id="a31" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#4F7AC1;strokeWidth=1.7;endArrow=block;endFill=1;endSize=7;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=11;fontColor=#545B68;" value="">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="810" y="470" />
+              <mxPoint x="1471" y="470" />
+            </Array>
+            <mxPoint as="sourcePoint" x="810" y="418" />
+            <mxPoint as="targetPoint" x="1471" y="508" />
+          </mxGeometry>
+        </mxCell>
+      <mxCell id="ui_logic_header_icon_3" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;" value="&lt;img src=&quot;data:image/png;base64,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&quot; width=&quot;34&quot; height=&quot;34&quot; style=&quot;display:block;margin:auto;object-fit:contain&quot;/&gt;" vertex="1"><mxGeometry as="geometry" height="34" width="34" x="60" y="28" /></mxCell><mxCell id="ui_logic_footer_3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;fontFamily=Plus Jakarta Sans,Be Vietnam Pro,Arial;fontSize=10;fontColor=#545B68;align=center;verticalAlign=middle;" value="Style: globals.css · Plus Jakarta Sans / Be Vietnam Pro · Flaticon UIcons — UIcons by Flaticon" vertex="1"><mxGeometry as="geometry" height="20" width="1600" x="60" y="746" /></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+  </mxfile>
