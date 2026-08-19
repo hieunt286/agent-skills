@@ -90,6 +90,7 @@ Style + branding contract for CCS Technology slide decks. Source of truth for to
 - Logo watermark = inject `a:alphaModFix` (amt ≈ 6000–8000 = 6–8%) into the picture's `a:blip`.
 - PPTX cannot embed SVG — render logo SVGs to transparent PNG first (Playwright screenshot with `omitBackground`, scale 4–6×).
 - Set `a:ea`/`a:cs` typefaces on every run so Vietnamese glyphs use the brand font.
+- **Verification is render-based and MANDATORY**: none of the real defects (text overflowing its box, empty cards, chrome misalignment) are detectable from the build code — they only show in rendered pages. Always run `soffice --headless --convert-to pdf` → `pdftoppm -png` → inspect every page → fix → re-render, until a clean pass.
 
 ## 6. Branding & chrome
 
