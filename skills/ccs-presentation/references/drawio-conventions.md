@@ -16,6 +16,7 @@ How CCS draws architecture / flow / journey diagrams in draw.io (.drawio) so the
 | `flow-device-sync.drawio` | Device/system sync & monitoring flow | Bidirectional command/status channels, offline behavior, buffered events |
 | `flow-ai-guardrail.drawio` | Guarded AI flow | A decision flow where refusal is the default path: deterministic match → threshold gate → answer-with-citation / polite-refusal + feedback loop |
 | `flow-ar-interaction.drawio` | Client-side interactive feature flow | Trigger → permission branch → happy path + fallback path → asset source & analytics |
+| `deployment-diagram.drawio` | Cloud deployment topology | DNS → load balancer → auto-scaling web/app tiers across AZ zones → cache + DB primary/replica → object storage + CDN, with managed services (monitoring, notifications, NoSQL, email) outside the region |
 | `journey-strip.drawio` | Customer journey strip (very wide) | Multi-stage journey: stages × (touchpoints, devices/emotions, system functions, data captured) + shared platform band, legend, layers |
 
 `journey-strip.drawio` also demonstrates **layer organization** (Nền và lưới / Luồng và liên kết / Tiêu đề / Hành trình / Dữ liệu / Nền tảng) — keep that layer discipline when editing large diagrams.
