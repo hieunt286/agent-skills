@@ -30,6 +30,7 @@ Useful flags:
 | Skill | Description |
 |---|---|
 | [`ccs-technique-proposal`](skills/ccs-technique-proposal/SKILL.md) | Builds technical solution proposals (đề xuất kỹ thuật) using CCS's three-goal persuasion methodology: HIỂU (understand) → TIN TƯỞNG (trust) → KHẢ THI (feasible). |
+| [`ccs-presentation`](skills/ccs-presentation/SKILL.md) | Builds slide decks with CCS Technology's branding and presentation culture: design system (colors/fonts/layout), header/footer brand chrome, drawio diagram conventions with Flaticon UIcons, and canonical storylines. Bundles the official logo assets + `globals.css` design tokens. |
 
 ## Repository layout
 

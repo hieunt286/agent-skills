@@ -66,6 +66,10 @@ These rules are what make it a CCS proposal. Check every one before delivering:
 - **End with the ask.** The final slide requests one specific, small, low-risk decision (typically: approve a PoC/Phase 0) with success criteria and prerequisites.
 - **De-risk the investment story.** Show "start small, scale with evidence": cheap PoC first, production architecture later, each expansion justified by results from the previous phase.
 
+## Visual execution
+
+When the proposal is delivered as a slide deck for CCS Technology, pair this skill with the `ccs-presentation` skill (same repo): it owns the CCS design system, brand chrome (header/footer/logo), drawio diagram conventions, and build pipeline. This skill owns the argument; that one owns the look.
+
 ## Step 5 — Review pass
 
 After drafting, re-read as the decision-maker: for each part ask "Do I understand? (A) Do I believe? (B) Do I trust they can deliver? (C)". Flag any slide that argues before Part A has built consensus, any claim without evidence, and any jargon the audience won't know. Fix, then deliver the spec plus a one-paragraph storyline summary (tóm tắt mạch trình bày).
