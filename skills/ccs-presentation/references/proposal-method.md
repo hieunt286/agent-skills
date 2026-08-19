@@ -1,13 +1,8 @@
----
-name: ccs-technique-proposal
-description: Builds technical solution proposals (đề xuất kỹ thuật / đề xuất giải pháp) using CCS's three-goal persuasion methodology — HIỂU (understand), TIN TƯỞNG (trust), KHẢ THI (feasible). Use when drafting, restructuring, or reviewing a proposal or pitch deck that must win an approval decision — leadership sign-off, client bid, or internal investment — e.g. "viết proposal", "làm đề xuất kỹ thuật", "thuyết phục lãnh đạo phê duyệt giải pháp".
----
+# Persuasion proposal method (đề xuất kỹ thuật)
 
-# CCS Technique Proposal
+CCS's three-goal persuasion methodology for a proposal that must **win an approval decision** — leadership sign-off, client bid, or internal investment. The deliverable is a **slide-by-slide content specification** in Markdown: for every slide, the goal (what the audience must take away), the content to display, and the closing message — ready for review, enrichment, or conversion to a deck built per the design system.
 
-Produce a technical proposal as a **slide-by-slide content specification** in Markdown — a document that describes, for every slide, the goal (what the audience must take away), the content to display, and the closing message. This spec is the deliverable: it is ready for a human or another AI to enrich, review, or convert to PPT/PDF.
-
-Default output language is **Vietnamese** (the audience is usually Vietnamese leadership or clients). Switch to English only if the user asks or the audience clearly requires it.
+Default language is **Vietnamese**; switch only if the audience requires it.
 
 ## Step 1 — Lock the decision frame
 
@@ -18,11 +13,11 @@ Before writing anything, establish and state at the top of the document:
 3. **Context** — internal approval, client bid (thầu), or partnership pitch. This sets branding and how much external evidence is needed.
 4. **Tone** — always: thực dụng, có bằng chứng, đặt kỳ vọng đúng (pragmatic, evidence-based, no exaggeration).
 
-If the user hasn't provided the problem/pains, the proposed solution, and available evidence, ask for them or extract them from provided materials before proceeding.
+If the problem/pains, the proposed solution, and available evidence haven't been provided, ask for them or extract them from provided materials before proceeding.
 
 ## Step 2 — Build the three-part storyline
 
-Structure every proposal around three persuasion goals, in this order. Each part answers one question the audience is silently asking:
+Structure the proposal around three persuasion goals, in this order. Each part answers one question the audience is silently asking:
 
 | Part | Goal | Audience question | Typical slides |
 |---|---|---|---|
@@ -30,9 +25,9 @@ Structure every proposal around three persuasion goals, in this order. Each part
 | **B — TIN TƯỞNG** | Audience believes the scope, approach, and technology choices are right — with reasoning and evidence | "Why this way and not another?" | Scope rationale → approach comparison (buy / build / extend) → technology choice against neutral criteria → external evidence |
 | **C — KHẢ THI** | Audience believes the team can deliver — clear architecture, mature methodology, de-risked roadmap | "Can they actually do it?" | Core value → architecture (+ integration + deployment) → tech stack → boundaries (what we do NOT do) → methodology with gates → roadmap + the ask |
 
-Part A creates consensus on the problem and desire for the solution **before** any argumentation. Part B argues the choices. Part C proves execution and ends with the call-to-action. Insert section-divider slides between parts so the audience always knows where they are in the persuasion arc.
+Part A creates consensus on the problem and desire for the solution **before** any argumentation. Part B argues the choices. Part C proves execution and ends with the call-to-action.
 
-The canonical ~15-slide outline with per-slide goals and content checklists is in [references/proposal-structure.md](references/proposal-structure.md) — read it when drafting the full document, and adapt (merge/split slides) to the specific case.
+The canonical ~15-slide outline with per-slide goals and content checklists is in [proposal-structure.md](proposal-structure.md) — read it when drafting the full document, and adapt (merge/split slides) to the specific case.
 
 ## Step 3 — Write each slide in the standard spec format
 
@@ -51,7 +46,7 @@ Every slide entry follows this exact format:
 **Gợi ý bố cục PPT:** <layout hint: card grid, comparison table, timeline, focal diagram…>
 ```
 
-For slides built around a diagram (architecture, user flow, deployment), add a **🖼️ Ảnh trọng tâm** block: name the image file, its aspect ratio, how it should dominate the slide, and keep surrounding text to short callouts that never repeat what the image already shows.
+For slides built around a diagram (architecture, user flow, deployment), add a **🖼️ Ảnh trọng tâm** block: name the image file, its aspect ratio, how it should dominate the slide, and keep surrounding text to short callouts that never repeat what the image already shows. Diagrams follow [drawio-conventions.md](drawio-conventions.md).
 
 ## Step 4 — Apply the quality rules
 
@@ -66,10 +61,8 @@ These rules are what make it a CCS proposal. Check every one before delivering:
 - **End with the ask.** The final slide requests one specific, small, low-risk decision (typically: approve a PoC/Phase 0) with success criteria and prerequisites.
 - **De-risk the investment story.** Show "start small, scale with evidence": cheap PoC first, production architecture later, each expansion justified by results from the previous phase.
 
-## Visual execution
-
-When the proposal is delivered as a slide deck for CCS Technology, pair this skill with the `ccs-presentation` skill (same repo): it owns the CCS design system, brand chrome (header/footer/logo), drawio diagram conventions, and build pipeline. This skill owns the argument; that one owns the look.
-
 ## Step 5 — Review pass
 
 After drafting, re-read as the decision-maker: for each part ask "Do I understand? (A) Do I believe? (B) Do I trust they can deliver? (C)". Flag any slide that argues before Part A has built consensus, any claim without evidence, and any jargon the audience won't know. Fix, then deliver the spec plus a one-paragraph storyline summary (tóm tắt mạch trình bày).
+
+When the spec is turned into an actual deck, execution follows the main skill: [design-system.md](design-system.md) for style and brand chrome, [drawio-conventions.md](drawio-conventions.md) for diagrams, and the mandatory render-based self-review loop.

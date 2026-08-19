@@ -24,7 +24,7 @@ Merge/split as content demands (a 10-slide variant merges 11 into 10), but never
 
 ## Pattern B — Persuasion proposal (approval decision)
 
-When the deck must **win a decision** (leadership sign-off, client bid), use the `ccs-technique-proposal` skill: three parts HIỂU → TIN TƯỞNG → KHẢ THI, closing with one specific ask. This skill still owns the visual execution; slide 1/2 chrome, agenda stepper, and closing-numbers patterns from Pattern A carry over.
+When the deck must **win a decision** (leadership sign-off, client bid), build the argument with [proposal-method.md](proposal-method.md) and the canonical outline in [proposal-structure.md](proposal-structure.md): three parts HIỂU → TIN TƯỞNG → KHẢ THI, closing with one specific ask. Visual execution stays identical; slide 1/2 chrome, agenda stepper, and closing-numbers patterns from Pattern A carry over.
 
 ## Shared principles
 
